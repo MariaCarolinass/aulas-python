@@ -35,7 +35,7 @@ Aulas de Python para iniciantes
     
 **6. Funções**
 
-   Criando e chamando uma função, declarando parâmetros, retornando valores da função, criando boas funções, função lambda, embutidas, importando funções de módulos e bibliotecas.
+   Criando e chamando funções, declarando parâmetros e retornando valores, boas funções, função lambda e embutidas, importando funções dos módulos e bibliotecas.
    - [aula 6](https://github.com/MariaCarolinass/aulas-python/blob/main/aulas/aula6-py.pdf)
    - [Exercícios](https://github.com/MariaCarolinass/aulas-python/tree/main/exerc%C3%ADcios/aula6)
     
