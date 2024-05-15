@@ -1,20 +1,21 @@
-notaPython = int(input("Digite uma avaliação de 0-5 para Python: "))
-notaJS = int(input("Digite uma avaliação de 0-5 para JavaScript: "))
-notaC = int(input("Digite uma avaliação de 0-5 para C++: "))
-notaJava = int(input("Digite uma avaliação de 0-5 para Java: "))
-notaPHP = int(input("Digite uma avaliação de 0-5 para PHP: "))
+linguagens = {"Python": 0, "JavaScript": 0, "C++": 0, "Java": 0, "PHP": 0}
 
-linguagens = {"Python": notaPython, "JavaScript": notaJS, "C++": notaC, "Java": notaJava, "PHP": notaPHP}
+for linguagem in linguagens:
+	avaliacao = int(input(f"Digite uma avaliação de 0-5 para {linguagem}: "))
+	linguagens[linguagem] = avaliacao
 
-print("Ranking das Linguagens")
-#for linguagem in sorted(linguagens, key = linguagens.get):
-#	print(f"{linguagem}: {linguagens[linguagem]}")
+melhor_linguagem = ""
+pior_linguagem = ""
+maior_avaliacao = -1
+menor_avaliacao = 6
 
-linguagensRanking = {}
-for avaliacao in sorted(linguagens.values()):
-	for linguagem, avali in linguagens.items():
-		if avali == avaliacao:
-			linguagensRanking[linguagem] = avali
-			break
+for linguagem, avaliacao in linguagens.items():
+	if avaliacao > maior_avaliacao:
+		maior_avaliacao = avaliacao
+		melhor_linguagem = linguagem
+	if avaliacao < menor_avaliacao:
+		menor_avaliacao = avaliacao
+		pior_linguagem = linguagem
 
-print(linguagensRanking)
+print(f"{melhor_linguagem} teve a melhor avaliação igual a {maior_avaliacao}")
+print(f"{pior_linguagem} teve a pior avaliação igual a {menor_avaliacao}")
