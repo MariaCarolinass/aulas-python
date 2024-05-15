@@ -10,4 +10,4 @@
 
 5. Pergunte 10 números para o usuário e a cada número exiba se ele é par ou ímpar.
 
-6. Solicite um número ao usuário e encontre todos os números primos desse número e mostre os resultados.
+6. Solicite um número ao usuário e verifique se número é primo ou não.
