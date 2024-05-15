@@ -1,6 +1,6 @@
 for n in range(1, 11):
 	num = int(input("Digite um número: "))	
 	if num % 2 == 0:	
-		print("É primo")
+		print("É para")
 	else:
-		print("Não é primo")
+		print("É ímpar")
