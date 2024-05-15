@@ -7,5 +7,5 @@ yb = float(input("Qual o valor de y no ponto b? "))
 a = (xa, ya)
 b = (xb, yb)
 
-dist = ((b[0] - a[0]) ** 2 + (b[1] - a[1])) / (1/2)
+dist = ((b[0] - a[0]) ** 2 + (b[1] - a[1]) ** 2) ** (1/2)
 print(dist)
