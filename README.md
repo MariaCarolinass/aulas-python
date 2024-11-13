@@ -1,13 +1,10 @@
-# Introdução a linguagem de programação Python
-
 ![aula1-py](https://github.com/MariaCarolinass/aulas-python/assets/50781484/e166a06b-7fb9-4f1a-a0d8-ef2aeea0a87f)
-
-Aulas de Python para iniciantes.
 
 - [Aulas](https://github.com/MariaCarolinass/aulas-python/tree/main/aulas)
 - [Exercícios](https://github.com/MariaCarolinass/aulas-python/tree/main/exerc%C3%ADcios)
+- [PDF com aulas e exercícios](https://github.com/MariaCarolinass/aulas-python/blob/main/aulaspython.pdf)
 
-## Tópicos das aulas
+## Tópicos
 
 **1. Introdução a Linguagem de Programação Python**
 
